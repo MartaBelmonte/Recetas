@@ -33,7 +33,7 @@
 ### Clonar el Repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/recetas.git
+https://github.com/MartaBelmonte/Recetas.git
 cd recetas
 ```
 
