@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Recetas del Alma
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción del Proyecto
 
-## Available Scripts
+**Recetas del Alma** es una plataforma web dedicada a la creación y exploración de recetas culinarias. El objetivo de este proyecto es proporcionar una interfaz intuitiva y fácil de usar donde los usuarios puedan descubrir, crear y compartir sus recetas favoritas. La plataforma busca inspirar a los entusiastas de la cocina a explorar nuevas recetas, desde las más caseras hasta las más gourmet.
 
-In the project directory, you can run:
+## Objetivos
 
-### `npm start`
+- **Fomentar la creatividad culinaria:** Permitir a los usuarios compartir y descubrir una amplia variedad de recetas.
+- **Facilitar la navegación y uso:** Ofrecer una interfaz amigable e intuitiva para usuarios de todos los niveles de habilidad.
+- **Construir una comunidad:** Crear un espacio donde los entusiastas de la cocina puedan conectarse e intercambiar ideas y recetas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologías Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend:**
+  - React
+  - React Bootstrap
 
-### `npm test`
+- **Backend:**
+  - Node.js
+  - Express
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Base de Datos:**
+  - MongoDB
 
-### `npm run build`
+## Requisitos del Sistema
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14.0.0 o superior)
+- MongoDB (v4.4 o superior)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalación y Ejecución del Proyecto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clonar el Repositorio
 
-### `npm run eject`
+```bash
+git clone https://github.com/tu-usuario/recetas.git
+cd recetas
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instalación de dependencias y ejecutar proyecto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### BBDD
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+MONGODB_URI=mongodb://localhost:27017/recetas
+PORT=5001
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### BACKEND
 
-## Learn More
+cd backend
+npm install
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### FRONTEND
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+cd frontend
+npm install
+npm start
